@@ -2,7 +2,7 @@
 published: false
 ---
 
-## TomEE and JNDI lookup
+# TomEE and when JNDI lookups go bad!
 
 If you try to JNDI lookup a Bean, it will find the Bean by name.  If an instance of the Proxy for that Bean already exists, but it's for a different Bean, it will "undeploy" that other bean - giving you the error message: 
 
