@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 # TomEE and when JNDI lookups go bad!
